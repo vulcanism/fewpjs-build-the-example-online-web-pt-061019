@@ -22,12 +22,10 @@ body.addEventListener("click", function(e) {
       modal.classList.remove("hidden");
       modal.innerText = error;
       setTimeout(() => modal.classList.add("hidden"), 5000)
-      console.log("an error!")
+      console.log("Error occurred!")
     })
   }
 })
-let heart = document.querySelector("span.like-glyph");
-
 
 
 
