@@ -26,8 +26,6 @@ body.addEventListener("click", function(e) {
     })
   }
 })
-let heart = document.querySelector("span.like-glyph");
-
 
 
 
